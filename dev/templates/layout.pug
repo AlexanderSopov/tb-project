@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="Isolerteknik i Stenungsund")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    block titleAndKeywords
+      title="Isolerteknik i Stenungsund - Mantlar, böjar, påstick, konor, tanktoppar, byxben... Vi kan tillverka"
+      meta(name="keywords", content="isolerteknik, mantlar, böjar, påstick, konor, tanktoppar, byxben")
+    style 
+      include ../../dist/css/style.css
+    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    script
+      include ../../dist/js/bundle.js
+  body
+    div.contentBox
+      include includes/header.pug
+      block contentBox
+        include includes/content.pug
+    div.footer
+      include includes/footer.pug
+
+        
