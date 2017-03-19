@@ -1,0 +1,180 @@
+html, body {margin:0;padding:0;text-align:center;background-attachment: fixed}
+body.center {text-align:center;background-attachment: fixed}
+.clear {clear:both;}
+#header , #loginlinks, #basketinfo {position:relative;}
+
+a img {border:0;}
+a {color:#A9BF2B;text-decoration:underline;}
+a:hover {color:#000;text-decoration:underline;}
+
+div.shadows {margin:0 auto; width:770px;background:url(/bildarkiv/bakgrunder/shadow.png) repeat-y;}
+div.botshadow, div.topshadow {margin:0 auto;width:770px;height:10px;font-size:1px;background:url(/bildarkiv/bakgrunder/botshadow.png);}
+div.topshadow {background:url(/bildarkiv/bakgrunder/topshadow.png);}
+* html div.shadows {height:1%;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bildarkiv/bakgrunder/shadow.png',sizingmethod='scale');background-image:none;}
+* html div.botshadow {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bildarkiv/bakgrunder/botshadow.png',sizingmethod='scale');background-image:none;}
+* html div.topshadow {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bildarkiv/bakgrunder/topshadow.png',sizingmethod='scale');background-image:none;}
+
+ul {margin:0 0 0 2em;padding:0;}
+ul.inline li {display:inline;margin-right:1em;margin-bottom:0.5em;list-style:bullet;}
+p {margin:0 0 1em;}
+
+h1 {margin:0 0 0.7em;}
+h1.margin {margin:1em 0 0.7em;}
+h2 {margin:1em 0 0.7em;}
+h2.margin {margin:1em 0 0.7em;}
+h3 {margin:1em 0 0.7em;}
+h3.margin {margin:1em 0 0.7em;}
+h4 {margin:1em 0 0.7em;}
+h4.margin {margin:1em 0 0.7em;}
+.dotbr hr {display:none;}
+.dotbr {clear:both;height:3em;line-height:3em;margin-top:-1em;background:url(/bildarkiv/dotbr.gif) 50% 50% repeat-x;}
+.invbr {display:block;clear:both;height:3em;margin:0;_margin:-1.6em 0 -0.6em;visibility:hidden;}
+
+#iefix {display:none;}
+img.ieclear {display:none;}
+* html img.ieclear {float:left;visibility:hidden;clear:both;height:1px;width:1px;}
+
+.normal {font-size:11px;line-height:1.3em;}
+#contentwide h1 {width:auto;}
+body.popup h1.tm {margin:28px 0 0;}
+form, #popup form {margin:0;padding:0;}
+.clear, div.clear {clear:both;font-size:1px;line-height:1px;}
+div.ffclear {font-size:1px;line-height:1px;height:0;clear:both;}
+* html div.ffclear {display:none;}
+a.adminedit {float:left;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html .clearfix:after {height:1%;}
+
+/* mickes test */
+#editor a { color:blue; text-decoration:underline;}
+
+/* Placement code */
+#body {width:750px;text-align:left;margin:0 auto;}
+body.center #body {width:750px;margin:0 auto;}
+body.center div.shadows, body.center div.botshadow, body.center #footer  {margin:0 auto;}
+
+/* Columns code */
+#columns {background:white;position:relative;float:left;width:750px;}
+
+/* Headimage code */
+#headimage {position:relative;}
+#headimg {float:left;}
+
+/* Footer code */
+#footer span {padding:5px 18px 6px;float:right;color:#fff;}
+#footer a {color:#fff;font-weight:bold;text-decoration:none;font:11px Tahoma, Arial, Verdana;font-weight:bold;}
+#footer a:hover {text-decoration:underline;}
+#footer {margin:0 auto;width:750px;display:block;height:26px;font:11px Tahoma, Arial, Verdana;}
+
+
+
+/* Main code */
+#header {width:750px;display:block;float:left;clear:both;}
+#loginlinks {width:730px;display:block;float:left;clear:both;padding:10px;background:black;color:white;}
+/* #basketinfo {display:block;float:left;clear:both;padding:10px;color:white;top:-24px;left:-94px;width:567px;height:156px;background:url(/images/webshop/basket_infobox.png) 0 0 no-repeat;z-index:100000;}*/
+
+#header #headbox {display:inline;}
+#header img.left {float:left;}
+#header img.right {float:right;}
+#headbox {float:right;}
+#headresizer {float:left;display:block;clear:both;}
+img.left {float:left;display:inline;margin:0 1.5em 1.5em 0;}
+img.right {float:right;display:inline;margin:0 0 1.5em 1.5em;}
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.underline {text-decoration:underline;}
+.tahoma {font-family:Tahoma;}
+.arial {font-family:Arial;}
+.times {font-family:Times;}
+.verdana {font-family:Verdana;}
+.georgia {font-family:Georgia;}
+.trebuchet {font-family:"Trebuchet MS";}
+A.pdf {  background: url(/bildarkiv/images/icons/pdf.gif) no-repeat left middle; padding-left:20px; height:20px; }
+A.doc {  background: url(/bildarkiv/images/icons/doc.gif) no-repeat left middle; padding-left:20px; height:20px; }
+A.xls {  background: url(/bildarkiv/images/icons/xls.gif) no-repeat left middle; padding-left:20px; height:20px; }
+div.macieclear {display:none;clear:both;height:0;line-height:1px;font-size:1px;width:1px;}
+div.contentBox, iframe.contentBox { float:left; width:200px; height:200px; padding:10px; background:#DEECE0; }
+/* position:absolute; z-index:20; */
+
+/* form stuff */
+DIV.fielddiv { padding:0 0 12px; font-size:11px; }
+h5 { margin: 0; margin-bottom:-10px; }
+DIV.instructions { margin-top:5px; padding:4px 0 0 22px; background:url(/forms/about.gif) 0px 4px no-repeat; height:16px;}
+DIV.fielddiv label {font-size: 11px; font-weight: bold; display:block; margin-top:5px; }
+DIV.fielddiv label.left { margin-left:4px; display: inline;font-weight:normal; }
+DIV.fielddiv INPUT { display:inline; }
+DIV.gbentry { border-bottom: 1px solid #ccc;margin:12px 0 0; }
+.gbentry .date {padding:2px 0 2px 18px;background:url(/images/gbentry.gif) 0 50% no-repeat;}
+#guestbooknav { background:#f7f7f7; padding:3px;}
+.gbtopnav {border-bottom:1px solid #ccc;}
+A.gbpage {line-height:12px;}
+A.gbactive {color:#000;font-weight:bold;}
+A.gbpfirst {border-left:0;}
+.input label {float:left;display:block;width:200px;line-height:20px;}
+div.input {margin:0 0 6px;}
+
+#pagefoot {clear:both;float:left;width:750px;position:relative;}
+#footresizer {float:left;clear:both;display:block;width:714px;padding:18px;background:#eee;}
+
+/*\*//*/
+#headbox {display:none;}
+#footer {float:none;}
+div.macieclear {display:block;}
+/**/
+
+@media print {
+div.shadows { background-color:white; filter:none; background-image:none; }
+* html div.shadows { background-color:white; filter:none; background-image:none; }
+body P { background-image: none; font-size:8px; }
+#body { margin:0; border:1px solid #000; }
+* html body { background-image: none; }
+}
+
+#customcontent { width:750px;background:transparent; float:left; }
+#displaycontent {padding:12px 20px 20px;}
+
+#categorytree div {border:1px solid;padding:4px;background:#fff;}
+ul.productTree {margin:0;list-style:none;padding:0;display:none;background:url(/images/webshop/dotsend.gif) 4px 100% no-repeat;}
+ul.productTree li {margin:0px;padding:0px;width:100%;display:block;position:relative}
+ul.productTree ul {margin:0 0 0 12px;padding:0px;height:auto}
+ul.productTree li.last {background:#fff;}
+ul.productTree a {line-height:18px;display:block;padding-left:13px;background:url(/images/webshop/dotsh.gif) 5px 9px no-repeat;}
+ul.productTree li img {position:absolute;top:5px}
+ul.productTree span.expand {background:#fff;display:block;width:9px;float:left;margin:0 4px 0 0;}
+ul.productTree.first {margin:0;}
+ul.productTree.open {display:block;}
+ul.productTreeItem {margin:0 0 0 0;padding:2px;}
+ul.productTreeItem a.on {font-weight:bold;}
+div.error {background:#9e0b0f;color:#fff;border:1px solid #000;padding:6px;margin:0 0 24px;}
+hr.margin {clear:both;width:100%;height:1px;color:#eee;border:0;border-top:1px solid #eee;margin:15px 0;*margin:0 0 9px;_margin:9px 0 0;}
+
+
+body {font-size:62.5%;}
+#contentarea { float:left; }
+.pbottom td {padding-bottom:6px;}
+
+.pickdate {margin:0 0 -3px;}
+.datepopuptable {border:1px solid #555;border-width:1px 1px 0 0;}
+.datepopuptable td {padding:0;text-align:center;background:#fff;border:1px solid #555;border-width:0 0 1px 1px;}
+.datepopuptable .datepickmenu { background:#000000;}
+.datepopuptable .datepickheader { background:#000000; color:#ffffff;font-weight:bold;height:22px;}
+.datepopuptable .datepickweekhead { width:23px; background:#000000;font-weight:bold;}
+.datepickfoot a {height:22px;line-height:22px;width:23px;font-weight:bold;font-size:11px;display:block;}
+.datepickfoot {font-weight:bold;}
+.datepopuptable a.datepickweekselect, .datepopuptable a.datepickdayd, .datepopuptable a.datepickday { color:#000; text-decoration: none; display:block; width:23px; height:22px;line-height:22px;}
+a.datepickdayd { color:gray;background:#eee; }
+.datepopuptable a.datepickweekselect { border:#000000; color:#ffffff; width:100%;text-align:center; }
+.datepopuptable a.datepickweekselect:hover {background:#ccc;color:#000;}
+a.datepickdayd:hover, .datepopuptable a.datepickday:hover, .datepickfoot a:hover { text-decoration: none;background:#ccc;font-weight:bold;}
+a.datepicknext, a.datepickprev { text-decoration: none; }
+.datepopuptable a.today { display:block;text-decoration:none;background: #555; color:#fff;width:23px;height:22px;line-height:22px;font-weight:bold; }
+.datepopuptable a.datepickclose {color:red;text-decoration:none;font-weight:bold;width:23px;height:22px;line-height:22px;float:right;}
+.datepopuptable a.datepickclose:hover {background:#fff;}
+
+.workorderpopup a.workorder {float:left;width:226px;padding:0 0 0 6px; background:#fff; color:black; border-bottom:1px solid #eee;display:block; float:left; height:20px; line-height:20px;cursor:pointer;text-decoration:none;text-align:left;}
+a.selected { background:#000;color:#fff; }
+.workorderpopup a.workorder:hover { background:#000;color:#fff;border-color:#000;}
+a.workorder .workordername, a.workorder .workorderid {display:block;width:196px;float:left;}
+a.workorder .workorderid {width:30px;}
+
+tr.outofstock td {background: #ffcaca}
