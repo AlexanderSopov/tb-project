@@ -9,12 +9,13 @@ html(lang="en")
       meta(name="keywords", content="isolerteknik, mantlar, böjar, påstick, konor, tanktoppar, byxben")
     style 
       include ../../dist/css/style.css
-    script(src="https://code.jquery.com/jquery-2.2.4.min.js")
     script
+      include ../../dist/js/jquery-2.2.4.min.js
       include ../../dist/js/bundle.js
   body
     div.contentBox
-      include includes/header.pug
+      header
+        include includes/header.pug
       block contentBox
         include includes/content.pug
     div.footer
