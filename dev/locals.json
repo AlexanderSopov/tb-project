@@ -1,3 +1,43 @@
-{	
-	
+{
+	"meta": {
+		"description":"Isolerteknik i Stenungsund",
+		"keywords": "isolerteknik, mantlar, böjar, påstick, konor, tanktoppar, byxben"
+	},
+	"pages":{
+		"Hem":{
+			"name":"Hem",
+			"url":"/",
+			"filename":"index"
+		},
+		"Om oss":{
+			"name":"Om oss",
+			"url":"/om",
+			"filename":"om"
+		},
+		"Produkter":{
+			"name":"Produkter",
+			"url":"/produkter",
+			"filename":"produkter"
+		},
+		"Montering":{
+			"name":"Montering",
+			"url":"/montering",
+			"filename":"montering"
+		},
+		"Beställa":{
+			"name":"Beställa",
+			"url":"/bestalla",
+			"filename":"bestalla"
+		},
+		"Referenser":{
+			"name":"Referenser",
+			"url":"/referenser",
+			"filename":"referenser"
+		},
+		"Kontakt":{
+			"name":"Kontakt",
+			"url":"/kontakt",
+			"filename":"kontakt"
+		}
+	}
 }

@@ -3,11 +3,10 @@ var utils	= require('./lib/utils.js'),
 	html 	= {
 				locals: utils.getLocals(),
 				options:{
-					filename:"index.pug",
 					compileDebug:true,
 					pretty:false
 				},
-				path: "./dev/templates/index.pug"
+				path: "./dev/templates/"
 			},
 	babel 	= {
 		srcPath: "./dev/static/js/index.js",
@@ -27,7 +26,3 @@ var utils	= require('./lib/utils.js'),
 
 
 utils.build(html, stylus, babel);
-
-
-
-
