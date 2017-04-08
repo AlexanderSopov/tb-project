@@ -17,38 +17,49 @@ body
 	min-height 90vh
 	background-color white
 	header
-		height 50px
+		max-height 50px
 		border-bottom 2px solid black
+		position relative
 		.logo
 			max-width 240px
-			position relative
-			bottom 30px
-			right 10px
 			img
+				position relative
+				bottom 30px
 				width 100%
 		.menu
 			width 100%
-			position relative
+			position absolute
 			visibility hidden
-			bottom 60px
-			a
-				display block
+			div
+				display inline-block
 				width 100%
 				text-align center
-				text-decoration none
-				color black
-				padding-top 5px
-				padding-bottom 4px
+				a
+					font-size 0.8em
+					text-decoration none
+					text-transform uppercase
+					color #838383
+					padding-top 5px
+					padding-bottom 6px
+				a:hover
+					color #f20102
+				a.active-page
+					border-bottom 4px solid red
+					color black
 		.visible
 			visibility visible
-			bottom 0px
+			top 60px
 .footer
 	width 90%
 	margin auto
 	text-align center
 	font-size 0.75em
 .developer
-	font-size 0.65em
+	position relative
+	left 10px
+	top 30px
+	margin-bottom 60px
+	font-size 0.9em
 	text-align right
 
 @media only screen and (min-width 376px)
@@ -62,14 +73,21 @@ body
 	.layout
 		width 700px
 	.contentBox header 
+		height 70px
+		div
+			display inline-block
+			float left
 		.menu
 			visibility visible
-			left 320px
+			height 100%
+			width calc(100% - 240px)
 			a
-				display inline
 				margin-right 10px
 @media only screen and (min-width 1024px)
 	.layout
 		width 900px
+	.contentBox header
+		.logo
+			max-width 312px
 // @media only screen and (orientation: landscape)
 
