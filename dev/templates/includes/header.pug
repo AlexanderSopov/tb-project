@@ -1,5 +1,10 @@
-div.logo(onclick="script.nav.showMenu(this);")
+div.logo
 	img(src="img/logo.png")
+div#hamburger(onclick="script.nav.showMenu(this);")
+	span
+	span
+	span
+	span
 div.menu
 	each page in pages
 		div

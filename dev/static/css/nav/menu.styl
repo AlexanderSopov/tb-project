@@ -1,0 +1,38 @@
+.menu
+		overflow hidden
+		border-bottom 1px solid grey
+		padding-bottom 10px
+		z-index -1
+		height
+		width 100%
+		background-color white
+		position absolute
+		visibility hidden
+		height 40px
+		-webkit-transition .35s ease-in-out
+		-moz-transition .35s ease-in-out
+		-o-transition .35s ease-in-out
+		transition .35s ease-in-out
+		div:nth-child(1)
+			margin-top 50px
+		div
+			display inline-block
+			width 100%
+			text-align center
+			padding-top 12px
+			padding-bottom 4px
+			a
+				font-size 0.8em
+				font-weight bold
+				text-decoration none
+				text-transform uppercase
+				color #838383
+				padding inherit
+			a:hover
+				color #f20102
+			a.active-page
+				border-bottom 4px solid red
+				color black
+	.menu.visible
+		visibility visible
+		height 300px

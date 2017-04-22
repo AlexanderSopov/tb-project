@@ -1,0 +1,36 @@
+@media only screen and (min-width 1024px)
+	.layout
+		width 900px
+	.container
+		padding 20px 30px 30px 30px
+	.contentBox header 
+		border-bottom 3px solid black
+		div
+			display inline-block
+			float left
+		.menu
+			visibility visible
+			height auto
+			border none
+			background-color none
+			width calc(100% - 320px)
+			div:nth-child(1)
+				margin 0
+			div
+				width auto
+				a
+					margin-left 15px
+					font-size 0.7em
+		#hamburger
+			display none
+@media only screen and (min-width 1440px)
+	.layout
+		width 1024px
+	.contentBox header
+		.menu
+			div
+				a
+					font-size 0.8em
+					margin-left 20px
+			div:nth-child(1)
+				margin-left 20px
