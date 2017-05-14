@@ -4,9 +4,11 @@ block contentBox
 	div.text
 		h1=c.h1
 		h2=c.h2
-		each p in c.p
-			p=p
+		ul
+			each li in c.ul
+				li=li
+		p!=c.adress
 	div.img
-		img(src=c.img)
+		img(src=c.img[0])
 
 

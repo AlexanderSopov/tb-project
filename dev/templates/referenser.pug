@@ -1,2 +1,12 @@
 extends layout.pug
+block contentBox
+	- var c = activePage.content;
+	div.text
+		h1=c.h1
+		ul
+			each li in c.ul
+				li=li
+		p!=c.adress
+	div.img
+		img(src=c.img)
 

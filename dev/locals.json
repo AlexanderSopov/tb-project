@@ -58,12 +58,36 @@
 		"Montering":{
 			"name":"Montering",
 			"url":"/montering",
-			"filename":"montering"
+			"filename":"montering",
+			"title":"Isolerteknik i Stenungsund - Montering",
+			"content":{
+				"img":"img/mabi.jpg",
+				"h1":"\"Hög kvalité och snabba leveranser, i samarbete med kunden löser vi allt\"",
+				"h2":"Utöver produktionen av anpassade plåtdetaljer är montering utav isolering och beklädnad en stor del av vår verksamhet.",
+				"i":"När man isolerar anläggningar är valet av isoleringsteknik viktig. Det har inte bara betydelse för anläggningens effekt och ekonomi utan även för dess underhåll och livslängd",
+				"p":[
+					"Kunskapen till detta finns innanför väggarna på Isolerteknik AB.",
+					"Våra montörer har måga års erfarenhet ifrån montering av isolering ytbeklädnad på industrier, växthus, idrottsanläggningar, bussdepåer, offshore och offentliga lokaler.",
+					"Se oss som en resurs om du vid något tillfälle behöver utföra isolering och plåtbeklädnad av rör, cisterner, torn och så vidare.",
+					"Kontakta oss så lämnar vi gärna en offert."
+				]
+			}
 		},
 		"Referenser":{
 			"name":"Referenser",
 			"url":"/referenser",
-			"filename":"referenser"
+			"filename":"referenser",
+			"title":"Isolerteknik i Stenungsund - Produkter",
+			"content":{
+				"img":"img/Plat_Benny.jpg",
+				"h1":"Några av våra kunder",
+				"ul":[
+					"Vattenfall AB", "AGA Gas", "H-H Ventilation AB", "K-Svets AB", "Profisol AB", "IHP International Heating Products",
+					"Herab", "Univar", "Ahlsell AB", "Jatic Ltd.", "ÖPE Isolering", "PR-Isolering", "Gothisol AB",
+					"Fyrkantens Isolering", "Edvind-Hansen AS", "Solvo VVS & Isolering",
+					"Bevego AB", "m.fl"
+				]
+			}
 		},
 		"Kontakt":{
 			"name":"Kontakt",
@@ -72,13 +96,15 @@
 			"title":"Isolerteknik i Stenungsund - Produkter",
 			"content":{
 				"img":["img/mabi.jpg"],
-				"h1":"Vilka detaljer vill du ha?",
-				"h2":"Mantlar, böjar, påstick, konor, tanktoppar, byxben... Är det något vi missat? Vi tillverkar plåtdetaljer i alla tänkbara former och material. Anpassade just för dig.",
-				"p":[
-					"Tack vare vår helautomatiska prefabriceringsmaskin Bingo kan vi också göra riktigt stora detaljer. Ge oss bara mått och antal - och du har din beställning inom en arbetsvecka.",
-					"Vi har olika kvaliteter av stål- och aluminiumplåt även rostfritt och lackad plåt. Du väljer själv mellan monteringsklara detaljer eller halvfabrikat. Sistnämnda variant innebär att detaljerna behöver enklare bearbetning innan montering."
-				]
-
+				"h1":"Hör av dig",
+				"h2":"Hör gärna av er om ni vill veta mer om oss och är intresserad av produktprover.",
+				"ul":[
+					"Telefon: 0303-849 75, 0706-28 60 88",
+					"Verkstad: 0706-28 60 74",
+					"Fax: 0303-888 42",
+					"E-post: info@isolerteknik.se"
+				],
+				"adress":"<strong>Isolerteknik AB</strong><br/>Box 34<br /> 444 21 Stenungsund"
 			}
 		}
 	}
