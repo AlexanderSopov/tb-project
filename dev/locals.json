@@ -7,27 +7,58 @@
 		"Hem":{
 			"name":"Hem",
 			"url":"/",
-			"filename":"index"
+			"filename":"index",
+			"title":"Isolerteknik i Stenungsund - Mantlar, böjar, påstick, konor, tanktoppar, byxben... Vi kan tillverka",
+			"content":{
+				"img":"img/Framsida.jpg",
+				"h1":"Välkommen till Isolerteknik AB med känsla för (plåt)detaljer",
+				"h2":"Vi är specialister på tillverkning och montering av plåtdetaljer för ytbeklädnad av isolerade rör, cisterner, tankar, ja allt som behöver isoleras eller ytbeklädas.",
+				"p":[
+					"I Stenungsund, fem mil norr om Göteborg i hjärtat av de petrokemiska industrierna har Isolerteknik AB sitt kontor och sin verkstad. Med en verkstad på 400kvm och en modern maskinpark kan vi tillverka allt ifrån små täckbrickor till att ytbekläda stora cisterner.",
+					"Här tillverkas detaljer för ytbeklädnad i Aluzink, Galv, Rostfritt, Lackad/Blank Aluminium m.fl. Detaljerna används runt om i Sverige av isolerings- och ventilationsföretag. Naturligtvis går en stor del till våra egna montörer som utför jobb i hela Sverige.",
+					"Läs mer om hur du snabbt och enkelt får exakt utformade plåtdetaljer som dessutom, om vi får säga det själva, är estetiskt tilltalande."
+				]
+
+			}
 		},
 		"Om oss":{
 			"name":"Om oss",
 			"url":"/om",
-			"filename":"om"
+			"filename":"om",
+			"title":"Isolerteknik i Stenungsund - Om oss",
+			"content":{
+				"img":"img/mabi.jpg",
+				"h1":"Vi och Bingo hjälper dig",
+				"h2":"I Stenungsund, fem mil norr om Göteborg i hjärtat av de petrokemiska industrierna har Isolerteknik AB sitt kontor och sin verkstad.",
+				"p":[
+					"Med en verkstad på 400kvm och en modern maskinpark kan vi tillverka allt ifrån små täckbrickor till att ytbekläda stora cisterner.",
+					"Hjärtat i produktionen är Bingo 16Z, en helautomatisk prefabriceringsmaskin som skär ut plåtdetaljer med en hastighet och precision som är omöjlig att uppnå med manuell tillverkning.",
+					"Detta gör att du snabbt får exakta detaljer med perfekt passform, vilket avsevärt underlättar monteringsarbetet.",
+					"Här tillverkas detaljer för ytbeklädnad i Aluzink, Galv, Rostfritt, Lackad/Blank Aluminium m.fl. Detaljerna används runt om i Sverige av isolerings- och ventilationsföretag. Naturligtvis går en stor del till våra egna montörer som utför jobb i hela Sverige."
+				]
+
+			}
 		},
 		"Produkter":{
 			"name":"Produkter",
 			"url":"/produkter",
-			"filename":"produkter"
+			"filename":"produkter",
+			"title":"Isolerteknik i Stenungsund - Produkter",
+			"content":{
+				"img":["img/mabi.jpg"],
+				"h1":"Vilka detaljer vill du ha?",
+				"h2":"Mantlar, böjar, påstick, konor, tanktoppar, byxben... Är det något vi missat? Vi tillverkar plåtdetaljer i alla tänkbara former och material. Anpassade just för dig.",
+				"p":[
+					"Tack vare vår helautomatiska prefabriceringsmaskin Bingo kan vi också göra riktigt stora detaljer. Ge oss bara mått och antal - och du har din beställning inom en arbetsvecka.",
+					"Vi har olika kvaliteter av stål- och aluminiumplåt även rostfritt och lackad plåt. Du väljer själv mellan monteringsklara detaljer eller halvfabrikat. Sistnämnda variant innebär att detaljerna behöver enklare bearbetning innan montering."
+				]
+
+			}
 		},
 		"Montering":{
 			"name":"Montering",
 			"url":"/montering",
 			"filename":"montering"
-		},
-		"Beställa":{
-			"name":"Beställa",
-			"url":"/bestalla",
-			"filename":"bestalla"
 		},
 		"Referenser":{
 			"name":"Referenser",
@@ -37,7 +68,18 @@
 		"Kontakt":{
 			"name":"Kontakt",
 			"url":"/kontakt",
-			"filename":"kontakt"
+			"filename":"kontakt",
+			"title":"Isolerteknik i Stenungsund - Produkter",
+			"content":{
+				"img":["img/mabi.jpg"],
+				"h1":"Vilka detaljer vill du ha?",
+				"h2":"Mantlar, böjar, påstick, konor, tanktoppar, byxben... Är det något vi missat? Vi tillverkar plåtdetaljer i alla tänkbara former och material. Anpassade just för dig.",
+				"p":[
+					"Tack vare vår helautomatiska prefabriceringsmaskin Bingo kan vi också göra riktigt stora detaljer. Ge oss bara mått och antal - och du har din beställning inom en arbetsvecka.",
+					"Vi har olika kvaliteter av stål- och aluminiumplåt även rostfritt och lackad plåt. Du väljer själv mellan monteringsklara detaljer eller halvfabrikat. Sistnämnda variant innebär att detaljerna behöver enklare bearbetning innan montering."
+				]
+
+			}
 		}
 	}
 }

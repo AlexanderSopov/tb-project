@@ -8,7 +8,7 @@ div#hamburger(onclick="script.nav.showMenu(this);")
 div.menu
 	each page in pages
 		div
-			if page.name == activePage
+			if page.name == activePage.name
 				a.active-page(href=page.url)= page.name
 			else
 				a(href=page.url)= page.name

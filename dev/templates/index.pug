@@ -1,3 +1,10 @@
 extends layout.pug
 block contentBox
-	h1 Tjena boy
+	- var c = activePage.content;
+	div.text
+		h1=c.h1
+		h2=c.h2
+		each p in c.p
+			p=p
+	div.img
+		img(src=c.img)
