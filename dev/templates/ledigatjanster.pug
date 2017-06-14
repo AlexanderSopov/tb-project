@@ -1,0 +1,20 @@
+extends layout.pug
+block contentBox
+	- var c = activePage.content;
+	div.text
+		h1=c.h1
+		h2=c.h2
+		div.regular-table
+			table
+				tr
+					th="Tjänst"
+					th="Krav"
+					th="Sista Ansökningsdag"
+				each row in c.table
+					tr
+						td=row.tjanst
+						td=row.krav
+						td=row.deadline
+	div.img
+		img(src=c.img)
+

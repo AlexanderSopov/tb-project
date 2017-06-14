@@ -55,21 +55,31 @@
 
 			}
 		},
-		"Montering":{
-			"name":"Montering",
-			"url":"/montering",
-			"filename":"montering",
-			"title":"Isolerteknik i Stenungsund - Montering",
+		"LedigaTjanster":{
+			"name":"Lediga Tjänster",
+			"url":"/ledigatjanster",
+			"filename":"ledigatjanster",
+			"title":"Isolerteknik i Stenungsund - Lediga Tjänster",
 			"content":{
-				"img":"img/mabi.jpg",
-				"h1":"\"Hög kvalité och snabba leveranser, i samarbete med kunden löser vi allt\"",
-				"h2":"Utöver produktionen av anpassade plåtdetaljer är montering utav isolering och beklädnad en stor del av vår verksamhet.",
-				"i":"När man isolerar anläggningar är valet av isoleringsteknik viktig. Det har inte bara betydelse för anläggningens effekt och ekonomi utan även för dess underhåll och livslängd",
-				"p":[
-					"Kunskapen till detta finns innanför väggarna på Isolerteknik AB.",
-					"Våra montörer har måga års erfarenhet ifrån montering av isolering ytbeklädnad på industrier, växthus, idrottsanläggningar, bussdepåer, offshore och offentliga lokaler.",
-					"Se oss som en resurs om du vid något tillfälle behöver utföra isolering och plåtbeklädnad av rör, cisterner, torn och så vidare.",
-					"Kontakta oss så lämnar vi gärna en offert."
+				"img":"img/ledigtjanst.jpg",
+				"h1":"Ett företag är bara så bra som dess anställda",
+				"h2":"Vi är ständigt på jakt efter talanger, nedan följer en lista på lediga tjänster.",
+				"table":[
+					{
+						"tjanst":"Tjänst",
+						"krav":"Krav",
+						"deadline":"Deadline"
+					},
+					{
+						"tjanst":"Tjänst",
+						"krav":"Krav",
+						"deadline":"Deadline"
+					},
+					{
+						"tjanst":"Tjänst",
+						"krav":"Krav",
+						"deadline":"Deadline"
+					}
 				]
 			}
 		},
