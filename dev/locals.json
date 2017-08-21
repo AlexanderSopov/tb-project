@@ -27,7 +27,7 @@
 			"filename":"om",
 			"title":"Isolerteknik i Stenungsund - Om oss",
 			"content":{
-				"img":"img/mabi.jpg",
+				"img":"img/Plat_Benny.jpg",
 				"h1":"Vi och Bingo hjälper dig",
 				"h2":"I Stenungsund, fem mil norr om Göteborg i hjärtat av de petrokemiska industrierna har Isolerteknik AB sitt kontor och sin verkstad.",
 				"p":[
@@ -64,21 +64,21 @@
 				"img":"img/ledigtjanst.jpg",
 				"h1":"Ett företag är bara så bra som dess anställda",
 				"h2":"Vi är ständigt på jakt efter talanger, nedan följer en lista på lediga tjänster.",
-				"table":[
+				"jobs":[
 					{
-						"tjanst":"Tjänst",
-						"krav":"Krav",
-						"deadline":"Deadline"
+						"tjanst":"Drifttekniker",
+						"url":"jobs/Drifttekniker.pdf",
+						"deadline":"23/9 -17"
 					},
 					{
-						"tjanst":"Tjänst",
-						"krav":"Krav",
-						"deadline":"Deadline"
+						"tjanst":"Drifttekniker",
+						"url":"jobs/Drifttekniker.pdf",
+						"deadline":"23/9 -17"
 					},
 					{
-						"tjanst":"Tjänst",
-						"krav":"Krav",
-						"deadline":"Deadline"
+						"tjanst":"Drifttekniker",
+						"url":"jobs/Drifttekniker.pdf",
+						"deadline":"23/9 -17"
 					}
 				]
 			}

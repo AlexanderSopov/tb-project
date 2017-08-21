@@ -8,13 +8,12 @@ block contentBox
 			table
 				tr
 					th="Tjänst"
-					th="Krav"
-					th="Sista Ansökningsdag"
-				each row in c.table
+					th="Sök innan"
+				each job in c.jobs
 					tr
-						td=row.tjanst
-						td=row.krav
-						td=row.deadline
+						td
+							a(href=job.url)=job.tjanst
+						td=job.deadline
 	div.img
 		img(src=c.img)
 
